@@ -29,7 +29,10 @@ class Libro
     // Crear un libro
     public function create()
     {
-        $query = "INSERT INTO " . $this->table_name . "SET titulo=:titulo, autor=:autor, fecha_publicacion=:fecha_publicacion, precio=:precio, disponible=:disponible";
+        $query = "INSERT INTO " . $this->table_name . " 
+          SET titulo=:titulo, autor=:autor, fecha_publicacion=:fecha_publicacion,
+              precio=:precio, disponible=:disponible";
+
 
         $stmt = $this->conn->prepare($query);
 

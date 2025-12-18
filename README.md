@@ -10,7 +10,7 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 
 - Arquitectura MVC real  
 - CRUD completo de libros  
-- Vistas modernas con Bootstrap 5  
+- Vistas con Bootstrap 5  
 - Consultas preparadas (PDO)  
 - Sanitización de datos en entradas de usuario  
 - Código limpio, modular y fácil de ampliar  

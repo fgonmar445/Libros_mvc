@@ -45,6 +45,7 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 │   └── listarView.jpg
 │
 ├── index.php
+├── login-php.sql
 └── README.md
 ```
 
@@ -70,15 +71,15 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 
 3. Configura la conexión en config/database.php:
     ```bash
-$this->conn = new PDO("mysql:host=localhost;dbname=crud_libros", "root", "");
+    $this->conn = new PDO("mysql:host=localhost;dbname=crud_libros", "root", "");
 
 4. Inicia el servidor local:
     ```bash
-php -S localhost:8000 -t public
+    php -S localhost:8000 -t public
 
 5. Abre en el navegador:
     ```bash
-http://localhost:8000
+    http://localhost:8000
 
 ---
 
@@ -102,7 +103,6 @@ CREATE TABLE libros (
 
 # ⭐ **Funcionalidades del CRUD**
 
-```md
 ## 🧩 Funcionalidades
 
 - **Crear libro:** formulario con validación JS y sanitización PHP  
@@ -110,8 +110,7 @@ CREATE TABLE libros (
 - **Editar libro:** carga de datos por ID y actualización segura  
 - **Eliminar libro:** confirmación antes de borrar  
 - **Formato europeo de fechas:** `DD-MM-YYYY` en la vista  
-- **Booleanos como checkbox:** marcado/no marcado  
-
+- **Booleanos como checkbox:** marcado/no marcado
 ---
 
 ## 📸 Interfaz del CRUD

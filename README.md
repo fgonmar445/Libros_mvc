@@ -22,3 +22,20 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 - Servidor local (XAMPP, WAMP, Laragon, etc.)  
 - MySQL / MariaDB  
 - Navegador moderno 
+
+---
+
+## 📸 Interfaz
+- A continuacion vamos a ver unas imagenes de las diferentes vistas del CRUD.
+
+Vista Crear Libro
+<img src="./public/assets/crearView.jpg">
+
+Vista Listar Libro
+<img src="./public/assets/listarView.jpg">
+
+Vista Editar Libro
+<img src="./public/assets/editarView.jpg">
+
+Vista Listar Libro
+<img src="./public/assets/libroEditado.jpg">

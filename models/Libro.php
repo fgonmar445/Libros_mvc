@@ -20,7 +20,17 @@ class Libro
     // Leer todos los libros
     public function read()
     {
-        $query = "SELECT * FROM " . $this->table_name . " ORDER BY id ASC";
+        $query = "
+    SELECT 
+        id,
+        titulo,
+        autor,
+        precio,
+        disponible,
+        DATE_FORMAT(fecha_publicacion, '%d-%m-%Y') AS fecha_publicacion
+    FROM " . $this->table_name . "
+    ORDER BY id ASC
+";
         $stmt = $this->conn->prepare($query);
         $stmt->execute();
         return $stmt;
@@ -48,7 +58,19 @@ class Libro
     // Leer un libro por ID
     public function readOne()
     {
-        $query = "SELECT * FROM " . $this->table_name . " WHERE id = ? LIMIT 1";
+        $query = "
+    SELECT 
+        id,
+        titulo,
+        autor,
+        precio,
+        disponible,
+        DATE_FORMAT(fecha_publicacion, '%Y-%m-%d') AS fecha_publicacion
+    FROM " . $this->table_name . "
+    WHERE id = ?
+    LIMIT 1
+";
+
         $stmt = $this->conn->prepare($query);
         $stmt->bindParam(1, $this->id, PDO::PARAM_INT);
         $stmt->execute();

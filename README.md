@@ -98,7 +98,7 @@ CREATE TABLE libros (
     fecha_publicacion DATE NOT NULL,
     disponible TINYINT(1) NOT NULL
 );
-
+```
 ---
 
 # ⭐ **Funcionalidades del CRUD**

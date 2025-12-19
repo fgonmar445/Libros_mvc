@@ -28,14 +28,14 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 ## 📸 Interfaz
 - A continuacion vamos a ver unas imagenes de las diferentes vistas del CRUD.
 
-Vista Crear Libro
+Vista Crear Libro<br>
 <img src="./public/assets/crearView.jpg">
-
-Vista Listar Libro
+<br>
+Vista Listar Libro<br>
 <img src="./public/assets/listarView.jpg">
-
-Vista Editar Libro
+<br>
+Vista Editar Libro<br>
 <img src="./public/assets/editarView.jpg">
-
-Vista Listar Libro
+<br>
+Vista Listar Libro<br>
 <img src="./public/assets/libroEditado.jpg">

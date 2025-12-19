@@ -18,6 +18,7 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 ---
 ## 📁 Estructura del Proyecto
 
+```txt
 /Libros_mvc/
 │
 ├── config/
@@ -45,6 +46,7 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 │
 ├── index.php
 └── README.md
+```
 
 ---
 
@@ -67,12 +69,15 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 - Importa el archivo login-php.sql
 
 3. Configura la conexión en config/database.php:
+    ```bash
 $this->conn = new PDO("mysql:host=localhost;dbname=crud_libros", "root", "");
 
 4. Inicia el servidor local:
+    ```bash
 php -S localhost:8000 -t public
 
 5. Abre en el navegador:
+    ```bash
 http://localhost:8000
 
 ---

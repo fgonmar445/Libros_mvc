@@ -25,17 +25,24 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 
 ---
 
-## 📸 Interfaz
-- A continuacion vamos a ver unas imagenes de las diferentes vistas del CRUD.
+## 📸 Interfaz del CRUD
 
-**Vista Crear Libro**<br>
-<img src="./public/assets/crearView.jpg">
-<br><br>
-**Vista Listar Libro**<br>
-<img src="./public/assets/listarView.jpg">
-<br><br>
-**Vista Editar Libro**<br>
-<img src="./public/assets/editarView.jpg">
-<br><br>
-**Vista Listar Libro**<br>
-<img src="./public/assets/libroEditado.jpg">
+### ✨ Crear Libro
+> Formulario para añadir un nuevo libro al sistema.
+<img src="./public/assets/crearView.jpg" width="700">
+
+### 📚 Listar Libros
+> Vista principal donde se muestran todos los libros registrados.
+<img src="./public/assets/listarView.jpg" width="700">
+
+### 🛠 Editar Libro
+> Modificación de los datos de un libro existente.
+<img src="./public/assets/editarView.jpg" width="700">
+
+### ✔ Libro Editado
+> Resultado después de guardar los cambios.
+<img src="./public/assets/libroEditado.jpg" width="700">
+
+### 🗑 Eliminar Libro
+> Confirmación antes de borrar un registro.
+<img src="./public/assets/eliminarView.jpg" width="700">

@@ -31,21 +31,12 @@ Incluye interfaz en **Bootstrap 5** y conexión a base de datos mediante **PDO**
 │   └── Libro.php
 │
 ├── views/
-│   └── libros/
 │       ├── listar.php
 │       ├── crear.php
 │       └── editar.php
 │
-├── public/
-│   ├── assets/
-│   ├── crearView.jpg
-│   ├── editarView.jpg
-│   ├── eliminarView.jpg
-│   ├── libroEditado.jpg
-│   └── listarView.jpg
 │
 ├── index.php
-├── login-php.sql
 └── README.md
 ```
 
